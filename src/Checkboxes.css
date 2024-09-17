@@ -1,0 +1,14 @@
+/* Checkboxes.css */
+
+.checkboxes-container {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-item {
+    margin: 5px 0;
+  }
+  
+  .checkbox-item label {
+    margin-left: 8px;
+  }
+  

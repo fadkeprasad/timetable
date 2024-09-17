@@ -1,0 +1,61 @@
+/* Calendar.css */
+
+.calendar-container {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-header {
+    display: grid;
+    grid-template-columns: 60px repeat(5, 1fr);
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .calendar-header-cell {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .empty-cell {
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: 60px repeat(5, 1fr);
+  }
+  
+  .calendar-row {
+    display: contents;
+  }
+  
+  .calendar-time-cell {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .calendar-cell {
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .highlighted-slot {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 220, 100, 0.7);
+  }
+  
